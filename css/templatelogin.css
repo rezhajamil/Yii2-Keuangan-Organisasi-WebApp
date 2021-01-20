@@ -1,0 +1,39 @@
+body{
+	background-color: #e9ebee;
+}
+
+.login{
+	margin-left: 480px;
+	margin-top:70px;
+	width: 100%;
+	height: auto;
+	width: 450px;
+	border: solid 2px #999191;
+}
+.kepala{
+	background-color: #ee4b68;
+	color: #fff;
+	padding: 2px;
+	text-align: left;
+	font-weight: 100%;
+	height: auto;
+	font-family: serif;
+	padding-left:20px;
+}
+
+button{
+	width: 80px;
+	height: 35px;
+}
+table tr td{
+	padding: 10px;
+	font-family: serif;
+}
+input{
+	height: 30px;
+	width: 280px;
+	background: #ccc;
+	border:solid 1px #ee4a16 ;
+	font-family: serif;
+	font-size: 14px;
+}

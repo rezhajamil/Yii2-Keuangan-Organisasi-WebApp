@@ -1,0 +1,103 @@
+body{
+	background-color: #e9ebee;
+}
+input[type="text"]{
+	height: 30px;
+	width: 380px;
+	background: #ccc;
+	border:solid 1px #ee4a16 ;
+	font-family: serif;
+	font-size: 14px;
+}
+input[type="date"]{
+	height: 30px;
+	width: 250px;
+	background: #ccc;
+	border:solid 1px #ee4a16 ;
+	font-family: serif;
+	font-size: 14px;
+}
+select{
+	height: 30px;
+	width: 380px;
+	background: #ccc;
+	border:solid 1px #ee4a16 ;
+	font-family: serif;
+	font-size: 14px;
+}
+button{
+	width: 80px;
+	height: 35px;
+	background: #ccc;
+}
+.utama{
+	background-color: #fff;
+	width: 1020px;
+	margin: auto;
+	border: 1px solid #ccc;
+	min-height: 500px;
+}
+.kepala{
+	margin-bottom: 15px;
+}
+.menu a{
+	border: 1px solid #ee4b68;
+	padding: 10px;
+	background-color: #ee4b68;
+	color:#fff; 
+	text-decoration: none;
+	margin-bottom: 10px;
+}
+.menu a:hover{
+	background-color: #8AB6C6;
+}
+.isi{
+	padding: 10px;
+}
+.kaki{
+	background-color: #ee4b68;
+	width: 1020px;
+	margin: auto;
+	min-height: 8px;
+	border: 1px solid #ee4b68;
+	color: #e5efc1
+
+}
+table{
+	border:1px solid#ccc;
+	border-collapse: collapse;; 
+
+}
+table td{
+	border:1px solid#ccc;
+	padding:5px;
+	text-decoration: none;
+}
+table th{
+	border:1px solid#ccc;
+	padding: 10px;
+	background-color: #8AB6C6;
+	color:#5E5452;
+
+}
+footer{
+
+}
+.btn{
+	text-decoration: none;
+	font-family: sans-serif;
+	background: #fff;
+	margin-left: 370px;
+	margin-right: 370px;
+	margin-top:12px;
+	margin-bottom:12px; 
+	padding: 10px;
+	border-radius: 10px;
+	color:black;
+	border: 2px solid #ccc;
+}
+.btn :hover{
+	color:white;
+	background: #8AB6C6;
+	transition: 0.3s;
+}

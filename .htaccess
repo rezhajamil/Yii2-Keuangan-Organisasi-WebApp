@@ -1,0 +1,12 @@
+RewriteEngine On
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# otherwise forward it to index.php
+
+RewriteRule ^([A-Za-z0-9]+)/?$ index.php?controller=$1 [QSA,L]
+
+RewriteRule ^([A-Za-z0-9]+)/([A-Za-z0-9-]+)/?$ index.php?controller=$1&action=$2 [QSA,L]
+
+RewriteRule ^([A-Za-z0-9]+)/([A-Za-z0-9-]+)/([A-Za-z0-9-]+)/?$ index.php?controller=$1&action=$2&id=$3 [QSA,L]
